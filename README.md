@@ -46,6 +46,18 @@ https://jate-text-editor15-e077c2d0ee63.herokuapp.com/
 
 ## Screenshots
 
+![Screenshot1-week-19-challenge](https://github.com/rmessett15/PWA-Text-Editor/assets/120127903/4a4c72d3-b497-4162-beb6-b22d9513ff1c)
+
+![Screenshot2-week-19-challenge](https://github.com/rmessett15/PWA-Text-Editor/assets/120127903/fbad0185-ff82-4e60-8cff-56c62af4efb1)
+
+![Screenshot3-week-19-challenge](https://github.com/rmessett15/PWA-Text-Editor/assets/120127903/5dd82116-de79-42e5-a14e-9340408775f2)
+
+![Screenshot4-week-19-challenge](https://github.com/rmessett15/PWA-Text-Editor/assets/120127903/4810bb6f-57c2-4ea9-91d2-657a21325663)
+
+![Screenshot5-week-19-challenge](https://github.com/rmessett15/PWA-Text-Editor/assets/120127903/cc8f74d1-be14-4cde-bf2d-1793f6931b25)
+
+![Screenshot6-week-19-challenge](https://github.com/rmessett15/PWA-Text-Editor/assets/120127903/d210d676-d095-40aa-9a59-26512a5837b0)
+
 ## Technologies Used
 
 This application is powered by Node.js (v16.19.1), Express.js (v.14.18.2), JavaScript, MongoDB, and Mongoose (ODM). It utilizes the node package manager (npm) dependencies express (v4.18.2), and mongoose (v7.2.2). Nodemon (v2.0.22) was utilized as a devDependency allowing the server to refresh when edits were made to application. Jest (v.29.5.0) is installed as a devDependency for future unit testing. MongoDB Compass acted as the interactive shell used to visually see the database. Also, the Insomnia application, was utilized to test the functionality of routes within the program.
