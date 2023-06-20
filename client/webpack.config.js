@@ -77,3 +77,6 @@ module.exports = () => {
     },
   };
 };
+
+// Why does icon in nav not show up when offline?
+// Why does event listener not work when offline?
