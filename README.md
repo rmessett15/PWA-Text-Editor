@@ -46,9 +46,9 @@ https://jate-text-editor15-e077c2d0ee63.herokuapp.com/
 
 ## Screenshots
 
-![Screenshot1-week-19-challenge](https://github.com/rmessett15/PWA-Text-Editor/assets/120127903/4a4c72d3-b497-4162-beb6-b22d9513ff1c)
+![Screenshot1-week-19-challenge](https://github.com/rmessett15/PWA-Text-Editor/assets/120127903/8df796e3-a8d4-4d76-ac74-e8445f418250)
 
-![Screenshot2-week-19-challenge](https://github.com/rmessett15/PWA-Text-Editor/assets/120127903/fbad0185-ff82-4e60-8cff-56c62af4efb1)
+![Screenshot2-week-19-challenge](https://github.com/rmessett15/PWA-Text-Editor/assets/120127903/1b3270d5-a91a-4d67-9ef6-b0a5f2fee4d5)
 
 ![Screenshot3-week-19-challenge](https://github.com/rmessett15/PWA-Text-Editor/assets/120127903/5dd82116-de79-42e5-a14e-9340408775f2)
 
