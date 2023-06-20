@@ -36,7 +36,11 @@ Week-19 Challenge (Progressive Web Applications)
 
 ## Description
 
+This application was built for the purpose of demonstrating and honing skills of progressive web application. Its purpose was to gather a greater understanding of what React JavaScript library is really doing behind the scenes. There are four main concepts this application focuses on. One, configuring the webpack.config.js file with the necessary workbox plugins for service worker and manifest files, and adding CSS and babel loader (enabling the CSS and JavaScript to be used offline?). Two, implementing asset caching within the src-sw.js file giving the application offline  functionality. Three, configuring the database, so that data can be added, updated and retrieved from the IndexedDB. And four, adding the addition of event handlers to our install button, so that the application can be installed to each users personal application stack and be used offline...
+
 ## Live URL
+
+https://jate-text-editor15-e077c2d0ee63.herokuapp.com/
 
 ## Live Screen Recording of Application Functionality
 
@@ -58,7 +62,7 @@ This application is powered by Node.js (v16.19.1), Express.js (v.14.18.2), JavaS
 ## Installation
 
 1. Clone the repo:
-   git clone https://github.com/rmessett15/Social-Network-API.git
+   git clone https://github.com/rmessett15/PWA-Text-Editor.git
 
 2. Open in VS Code. If you do not have VS code you must install it.
 
