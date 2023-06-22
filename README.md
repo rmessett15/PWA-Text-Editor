@@ -36,7 +36,9 @@ Week-19 Challenge (Progressive Web Applications)
 
 ## Description
 
-This application was built for the purpose of demonstrating and honing skills of progressive web application. Its purpose was to gather a greater understanding of what React JavaScript library is really doing behind the scenes. There are four main concepts this application focuses on. One, configuring the webpack.config.js file with the necessary workbox plugins for service worker and manifest files, and adding CSS and babel loader (enabling the CSS and JavaScript to be used offline?). Two, implementing asset caching within the src-sw.js file giving the application offline  functionality. Three, configuring the database, so that data can be added, updated and retrieved from the IndexedDB. And four, adding the addition of event handlers to our install button, so that the application can be installed to each users personal application stack and be used offline...
+This application was built for the purpose of demonstrating and honing skills of progressive web application. Its purpose was to gather a greater understanding of what React JavaScript library is really doing behind the scenes. There are four main concepts this application focuses on. One, configuring the webpack.config.js file with the necessary workbox plugins for service worker and manifest files, and adding CSS and babel loader (enabling the CSS and JavaScript to compile on devices running on older legacy code i.e. ES5). Two, implementing asset caching within the src-sw.js file giving the application offline  functionality. Three, configuring the database, so that data can be added, updated and retrieved from the IndexedDB. And four, adding the addition of event handlers to our install button, so that the application can be installed to each users personal application stack and be used offline.
+
+Although much of this application functions on a boilerplate code structure, building it out helped me to a greater understanding of the functionality of libraries and frameworks like React, Angular, and Vue.
 
 ## Live URL
 
@@ -47,16 +49,6 @@ https://jate-text-editor15-e077c2d0ee63.herokuapp.com/
 ## Screenshots
 
 ![Screenshot1-week-19-challenge](https://github.com/rmessett15/PWA-Text-Editor/assets/120127903/8df796e3-a8d4-4d76-ac74-e8445f418250)
-
-![Screenshot2-week-19-challenge](https://github.com/rmessett15/PWA-Text-Editor/assets/120127903/1b3270d5-a91a-4d67-9ef6-b0a5f2fee4d5)
-
-![Screenshot3-week-19-challenge](https://github.com/rmessett15/PWA-Text-Editor/assets/120127903/5dd82116-de79-42e5-a14e-9340408775f2)
-
-![Screenshot4-week-19-challenge](https://github.com/rmessett15/PWA-Text-Editor/assets/120127903/4810bb6f-57c2-4ea9-91d2-657a21325663)
-
-![Screenshot5-week-19-challenge](https://github.com/rmessett15/PWA-Text-Editor/assets/120127903/cc8f74d1-be14-4cde-bf2d-1793f6931b25)
-
-![Screenshot6-week-19-challenge](https://github.com/rmessett15/PWA-Text-Editor/assets/120127903/d210d676-d095-40aa-9a59-26512a5837b0)
 
 ## Technologies Used
 
