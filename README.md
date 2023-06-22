@@ -80,6 +80,8 @@ To make any further additions, start by cloning the repo in the command line git
 
 As mentioned above much of this application code is boilerplate. Much of the necessary adds were inherited from week-19 mini challenge. Also worked directly with a tutor Joem Casusi, who helped aid me in my understanding of Progressive Web Applications, and IndexedDB's.
 
+(Starter code) was provided by Xander Rapstine (Xandromus) and UT Austin Boot Camps.
+
 ## Features
 
 Once the application is opened, the IndexedDB will persist any notes added to the site. There is no need to save any information as the application automatically updates the IndexedDB -> the only thing required for this feature to occur is that the user click out of the window. When returning to the site, they will find all of their notes and other information persisted to the page.
