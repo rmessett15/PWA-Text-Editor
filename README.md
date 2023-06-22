@@ -10,8 +10,6 @@ Week-19 Challenge (Progressive Web Applications)
 
 - [Live-URL](#live-url)
 
-- [Live-Screen-Recording-of-Application-Functionality](#live-screen-recording-of-application-functionality)
-
 - [Screenshots](#screenshots)
 
 - [Technologies-Used](#technologies-used)
@@ -38,13 +36,11 @@ Week-19 Challenge (Progressive Web Applications)
 
 This application was built for the purpose of demonstrating and honing skills of progressive web application. Its purpose was to gather a greater understanding of what React JavaScript library is really doing behind the scenes. There are four main concepts this application focuses on. One, configuring the webpack.config.js file with the necessary workbox plugins for service worker and manifest files, and adding CSS and babel loader (enabling the CSS and JavaScript to compile on devices running on older legacy code i.e. ES5). Two, implementing asset caching within the src-sw.js file giving the application offline  functionality. Three, configuring the database, so that data can be added, updated and retrieved from the IndexedDB. And four, adding the addition of event handlers to our install button, so that the application can be installed to each users personal application stack and be used offline.
 
-Although much of this application functions on a boilerplate code structure, building it out helped me to a greater understanding of the functionality of libraries and frameworks like React, Angular, and Vue.
+Although much of this application functions on a boilerplate code structure, building it out helped me to a greater understanding of the functionality of libraries and frameworks like React, Angular, and Vue. As of now I have no plans for future development, however this application can function as a benchmark boilerplate code base for the development of future progressive web applications.
 
 ## Live URL
 
 https://jate-text-editor15-e077c2d0ee63.herokuapp.com/
-
-## Live Screen Recording of Application Functionality
 
 ## Screenshots
 
@@ -62,50 +58,39 @@ https://jate-text-editor15-e077c2d0ee63.herokuapp.com/
 
 ## Technologies Used
 
-This application is powered by Node.js (v16.19.1), Express.js (v.14.18.2), JavaScript, MongoDB, and Mongoose (ODM). It utilizes the node package manager (npm) dependencies express (v4.18.2), and mongoose (v7.2.2). Nodemon (v2.0.22) was utilized as a devDependency allowing the server to refresh when edits were made to application. Jest (v.29.5.0) is installed as a devDependency for future unit testing. MongoDB Compass acted as the interactive shell used to visually see the database. Also, the Insomnia application, was utilized to test the functionality of routes within the program.
+This application is powered by Webpack (HTML-Webpack-Plugin, Babel, and CSS Loader), Node.js (v16.19.1), Express.js (v.14.17.1), and JavaScript. Nodemon (v2.0.4) and Concurrently (v5.2.0) were utilized as a devDependencies allowing the server to refresh when edits were made to application, and allowing both the front end and back end to be ran on a single command (npm run start:dev).
 
+![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
+![Babel](https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD)
-![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
-![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE)
 
 ## Installation
 
-1. Clone the repo:
-   git clone https://github.com/rmessett15/PWA-Text-Editor.git
+Users can view and utilize the application through the use of the browser by visiting the deployed application at https://jate-text-editor15-e077c2d0ee63.herokuapp.com/.
 
-2. Open in VS Code. If you do not have VS code you must install it.
+Viewing the application in the browser will also give users the ability to download the application allowing it to be used offline.
 
-3. Using the terminal, install node.js v16. If you have homebrew, the command should look like the following (brew install node@16), however this may vary and the documentation should be consulted.
-
-4. Once node.js v16 is installed, in the terminal, utilize the command npm init -y to initialize and create a package.json where project files will be stored.
-
-5. Next, use the terminal to run the command npm i to install the dependencies associated with this application (developers may need to install dependencies directly from the command line).
-
-   Commands to install each dependency:
-
-   - Command for express will be npm i express@4.18.2
-   - Command for mongoose will be npm i mongoose
-   - Command for nodemon will be npm i nodemon
-   - Command for jest will be npm i jest
-
-6. Next, you will want to make sure you have access to a MongoDB account and MongoDB Compass, these will allow you to interact with the database and visually confirm what changes are being made in the database. (Link for MongoDB & MongoDB Compass download -> https://coding-boot-camp.github.io/full-stack/mongodb/how-to-install-mongodb).
-
-7. Once all dependencies are installed, you will then be able to run the command npm start from the root directory to spin up the server. With nodemon installed, you will also be able to utilize the command npm run dev to keep the server spun up between code edits.
-
-8. From there, you can utilize applications such as Insomnia to test the functionality of the API routes within the program and make edits to the code base (Link to install Insomnia -> https://docs.insomnia.rest/insomnia/install).
+To make any further additions, start by cloning the repo in the command line git clone https://github.com/rmessett15/PWA-Text-Editor.git, or forking the repo.
 
 ## Credits
 
+As mentioned above much of this application code is boilerplate. Much of the necessary adds were inherited from week-19 mini challenge. Also worked directly with a tutor Joem Casusi, who helped aid me in my understanding of Progressive Web Applications, and IndexedDB's.
+
 ## Features
+
+Once the application is opened, the IndexedDB will persist any notes added to the site. There is no need to save any information as the application automatically updates the IndexedDB -> the only thing required for this feature to occur is that the user click out of the window. When returning to the site, they will find all of their notes and other information persisted to the page.
 
 ## Usage Information
 
+Usage of this application is very intuitive, just visit the live URL (https://jate-text-editor15-e077c2d0ee63.herokuapp.com/) and start adding notes right away! Users will also notice an install button in the nav bar allowing for the application to be downloaded and used offline. Saving of notes occurs automatically through the IndexedDB; the only thing required is for the user to click out of the window and notes will be persisted whether using the application online or offline.
+
 ## Suggested Future Development
+
+As of now I have no plans to develop this application any further. However, this code base can be used as a starting point for future of development of any Progressive Web Application.
 
 ## Contribution Guidelines
 
